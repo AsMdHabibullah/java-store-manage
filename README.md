@@ -107,9 +107,42 @@ Install maven accourding to the OS and for setup the maven project need to write
 ```
 
 ### After all now you can write the java code.
+
+### My project details
 ```
-    Thanks
-    As Md Habibullah
-    Yunnan University
-    Department of Computer Science & Technology
+Total dependency for this is: springframework, springfox, swagger, SQL, h2database, and junit.
+
+In this project have a folder, name is resources and in resources have a file and it's application.properties. This file's work for setups the database, port, static, etc.
+
+Total classes: SwaggerConfig, Store, Product, HomeController, StoreController, ProductController.
+Class methods: home, getStores, postStore, saveOrUpdateStore, deleteStore, getProducts, postProduct, saveOrUpdateProduct, deleteProduct.
+
+    Details of all classes: In this project I used MVC(model views controller) module.
+    01. SwaggerConfig: The swagger a super tools to write the very well documentation of the API and this class is all the setup.
+    02. Store: It's a entity class and help of theis class I can create the new store and also can save the store in databse.
+    03. Product: This is also entity class and it's same as store class but for create the new product before must have to have a store in database.
+    04. HomeController: This class for home views and it's will contain all of the documentation of the project.
+    05. StoreController: For create a new store this class will help me because it's a api endpoint views section.
+    06. ProductController: It's same as store controller but when want to create a new product before in database have to have a store and this store id need to provide in product.
+
+    Details of class methods: For save the store and product in database need to use all controller class methode.
+    01. home: It's for home documentation view need to use this method.
+    02. getStores: To back all the store from database need to use this method.
+    03. postStore: To create the new store need to use this method.
+    04. saveOrUpdateStore: Existing store in database if want to update then need to use this  method and also need to provide existing sore id.
+    05. deleteStore: For delate the existing store need to use this method and this method take the id of the store after thet i't will delete the store.
+    06. getProducts: It's same as the get store method but for get the product must need to provide a store id and this method will get all the product accourding to the store id.
+    07. postProduct: This method will take a store id and coourding to the is this method can create a new product.
+    08. saveOrUpdateProduct: For update the existing product this method can help us but need to provide the existing product id.
+    09. deleteProduct: For delete the existing product this method can help us but need to provide product id for delete the exact product.
+    
+```
+
+### That's all for this project.
+
+```
+Thanks
+As Md Habibullah
+Yunnan University
+Department of Computer Science & Technology
 ```
