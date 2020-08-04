@@ -3,7 +3,7 @@
 ## Default java or spacific version of java, jdk, & maven install
 ### Editor install, OS path setup and connect to github
 
-### Module of Java programming language
+### Module of Java programming language & simple overview from my understanding
 ```
     1. vairable
     2. data type
@@ -20,7 +20,8 @@
 
 ### 01. variable
 ```
-data type, var name
+Variable use to alocqate the mamory storage.
+In java the rules of create a variable is: first data type and then variable name
 ex: int a, b, c;
 ```
 ### 02. data type
@@ -53,8 +54,8 @@ catch
 
 ### 05. function/method
 ```
-greed(khabar){
-khabar process
+greed(argument/paramiter){
+ process
 }
 ```
 
@@ -108,7 +109,7 @@ Install maven accourding to the OS and for setup the maven project need to write
 
 ### After all now you can write the java code.
 
-### My project details
+### Simple overview of this project
 ```
 Total dependency for this is: springframework, springfox, swagger, SQL, h2database, and junit.
 
