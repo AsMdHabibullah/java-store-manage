@@ -1,9 +1,7 @@
 # Java OOP(Object Oriented Programming) concepts and maven project setup
 
 ## Default java or spacific version of java, jdk, & maven install
-### Editor install
-### OS path setup
-### Connect to github
+### Editor install, OS path setup and connect to github
 
 ### Module of Java programming language
 ```
