@@ -20,10 +20,11 @@
 
 ### 01. variable
 ```
-Variable use to alocqate the mamory storage.
-In java the rules of create a variable is: first data type and then variable name
+Variable used to allocate the memory storage.
+In java, the rules is to create a variable: first data type and then variable name
 ex: int a, b, c;
 ```
+
 ### 02. data type
 ```
 number
@@ -32,6 +33,7 @@ char,
 double,
 bolean [true, false]
 ```
+
 ### 03. statement
 ```
 true
@@ -43,6 +45,7 @@ false
 ===
 !=
 ```
+
 ### 04. condition
 ```
 if
